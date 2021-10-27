@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-
-
+import {Search, ShoppingCartOutlined} from '@material-ui/icons'
+import {Badge} from '@material-ui/core'
 const Container =  styled.div`
 height: 60px;
 `
@@ -11,24 +11,72 @@ const  Wrapper =  styled.div`
  border: 2px solid black ;
  display:flex;
  justify-content: space-between;
+ align-items:center;
 `
 const Left =  styled.div`
- padding: 10px 20px 
+display:flex;
+align-items:center
+flex:1;
 `
+const Lang = styled.span`
+font-size: 12px;
+display:flex;
+align-items:center
+`
+
 const Rigth =  styled.div`
- padding: 10px 20px 
+display:flex;
+justify-content: flex-end;
+padding:5px;
+flex:1;
+
 `
 const Center =  styled.div`
- padding: 10px 20px 
+flex:1;
+text-align:center
+`
+const SearchContainer = styled.div`
+border:0.5px solid lightgray;
+display:flex;
+align-items:center;
+margin-left: 25px;
+padding:5px;
+`
+const Input = styled.input`
+border: none;
+`
+const Logo = styled.h1`
+font-weith :bold;
+`
+const MenuItem =  styled.div`
+font-size: 14px;
+cursor:pointer;
+margin-left: 20px;
 `
 
 const NavBar = () => {
   return (
     <Container>
         <Wrapper>
-         <Left>leftt</Left>
-         <Center>center</Center>
-         <Rigth>Rigr</Rigth>
+         <Left>
+             <Lang>Lang</Lang>
+             <SearchContainer>
+                 <Input/>
+                 <Search style={{color:'grey', fontSize:'16px'}}/>
+             </SearchContainer>
+         </Left>
+         <Center><Logo>Jewellery</Logo></Center>
+         <Rigth>
+             <MenuItem>Register</MenuItem>
+             <MenuItem>Sign in</MenuItem>
+             <MenuItem>
+             <Badge badgeContent={1} color="primary">
+                 <ShoppingCartOutlined/>
+             </Badge>
+             </MenuItem>
+
+
+         </Rigth>
         
         </Wrapper>
       
