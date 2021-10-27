@@ -2,6 +2,7 @@
 import styled from 'styled-components';
 import {ArrowLeftOutlined,ArrowRightOutlined} from '@material-ui/icons';
 import { useEffect, useState } from 'react';
+import {SlideItem}from '../Compo/Data'
 
 const Container = styled.div`
 width: 100%; 
