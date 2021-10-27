@@ -2,14 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div`
-height: 30px;
-background-color:teal;
+height: 20px;
+background-color:rgb(169,157,129);
 display:flex;
 justify-content: center;
 color:#fff;
 align-items:center;
-font-size: 14px;
-font-weith :500;
+font-size: 24px;
+font-weith :700;
 `
 const Anouncement = () => {
   return (

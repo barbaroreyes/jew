@@ -5,7 +5,7 @@ const Container = styled.div`
 width: 100%; 
 height:100vh;
 display:flex;
-background-color: salmon;
+// background-color: salmon;
 position:relative;
 
 
@@ -42,15 +42,15 @@ align-items: center;
 
 `
 const ImageContainer = styled.div`
-flex:1;
+flex:2;
 height:100%;
 `
 const Image = styled.img`
-height:80%;
+height:50%;
 `
 const InfoConten = styled.div`
 flex:1;
-
+padding:50px;
 `
 
 const Slider = () => {

@@ -8,7 +8,8 @@ height: 80px;
 
 const  Wrapper =  styled.div`
  padding: 10px 20px ;
- border: 2px solid black ;
+ 
+ 
  display:flex;
  justify-content: space-between;
  align-items:center;
