@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import {Search, ShoppingCartOutlined} from '@material-ui/icons'
 import {Badge} from '@material-ui/core'
 const Container =  styled.div`
-height: 60px;
+height: 80px;
 `
 
 const  Wrapper =  styled.div`
@@ -36,11 +36,11 @@ flex:1;
 text-align:center
 `
 const SearchContainer = styled.div`
-border:0.5px solid lightgray;
+border:0.1px solid lightgray;
 display:flex;
 align-items:center;
 margin-left: 25px;
-padding:5px;
+padding:1px;
 `
 const Input = styled.input`
 border: none;
