@@ -2,7 +2,7 @@
 import styled from 'styled-components';
 import {ArrowLeftOutlined,ArrowRightOutlined} from '@material-ui/icons';
 import { useEffect, useState } from 'react';
-import {SlideItem}from '../Compo/Data'
+import Data from '../Compo/Data'
 
 const Container = styled.div`
 width: 100%; 
@@ -85,28 +85,27 @@ const Slider = () => {
             <ArrowLeftOutlined/>
             </Arrow>
             <Wrapper>
-                <Slide bg='rgb(189,132,64)'>
-                <ImageContainer>
-                <Image src='https://lamjce9b1a58db81496d90b0f125b07c8929185751-dev.s3.amazonaws.com/public/gargantilla-con-sol.jpeg'/>
-              </ImageContainer>
-              <InfoConten>
-                  <Title>This Sumer</Title>
-                  <Description>Gargantilla con dije de  Sol</Description>
-                  <Button>Shop Now</Button>
-            </InfoConten> 
-            
-              </Slide>
-              <Slide bg='rgb(189,132,64)'>
-                <ImageContainer>
-                <Image src='https://lamjce9b1a58db81496d90b0f125b07c8929185751-dev.s3.amazonaws.com/public/gargantilla-con-sol.jpeg'/>
-              </ImageContainer>
-              <InfoConten>
-                  <Title>This Sumer</Title>
-                  <Description>Gargantilla con dije de  Sol</Description>
-                  <Button>Shop Now</Button>
-            </InfoConten> 
-            
-              </Slide>
+              {Data.map((item)=>{
+                return(
+                  <Slide bg='rgb(189,132,64)'>
+                  <ImageContainer>
+                  <Image src={item.image}/>
+                </ImageContainer>
+                <InfoConten>
+                    <Title>{item.name}</Title>
+                    <Description>{item.description}</Description>
+                    <Button>Shop Now</Button>
+              </InfoConten> 
+              
+                </Slide>
+                )
+
+              })}
+
+
+              
+               
+             
             
             </Wrapper>
         <Arrow direction="right" onClick={()=>handleClick('right')}>
