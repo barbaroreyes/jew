@@ -1,7 +1,7 @@
 
 import styled from 'styled-components';
 import {ArrowLeftOutlined,ArrowRightOutlined} from '@material-ui/icons';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import Data from '../Compo/Data'
 
 const Container = styled.div`
@@ -39,6 +39,7 @@ hight:100%;
 display:flex;
 justify-content: center;
 align-items: center;
+transition: all 2s ease;
 transform: translateX(${props => props.slideIndex * -100}vw);
 `
 const Slide = styled.div`
