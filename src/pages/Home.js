@@ -5,6 +5,8 @@ import Slider from '../Compo/Slider';
 import Categories from '../Compo/Categories';
 import Products from '../Compo/Products';
 import NewLetter from '../Compo/NewLetter';
+import Footer from '../Compo/Footer';
+
 const Home = () => {
   return (
     <div>
@@ -14,6 +16,7 @@ const Home = () => {
      <Categories/>
      <Products/>
      <NewLetter/>
+     <Footer/>
     </div>
   );
 }
