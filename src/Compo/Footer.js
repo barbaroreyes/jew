@@ -41,7 +41,14 @@ width:50%;
 margin-bottom:10px;
 `
 const Rigth = styled.div `
-flex:1;`
+flex:1;
+display:flex;
+justify-content:center;
+flex-direction:column;
+align-items:center;
+padding:10px;
+`
+
 const Logo = styled.h1 `
 margin:0;
 padding:0;
@@ -75,7 +82,7 @@ color: ${props => props.color};
 const ContactItem = styled.div `
 flex:1;
 display:flex;
-margin-bottom:60px;
+margin-bottom:30px;
 `
 const Payment = styled.img `
 width:20%;
@@ -141,10 +148,10 @@ const Footer = () => {
          <ContactItem>
            <EmailRounded/>contact-email
          </ContactItem>
-         
+         <Payment src='https://www.bypeople.com/wp-content/uploads/2020/02/free-svg-payment-credit-card-icons.png'/>
       </Rigth>
       
-      <Payment src='https://www.bypeople.com/wp-content/uploads/2020/02/free-svg-payment-credit-card-icons.png'/>
+     
     </Container>
   );
 }
