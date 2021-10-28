@@ -12,4 +12,11 @@ id: ID!
 name: String!
 price: Float
 }
+type Slider @model{
+id: ID!
+name: String!
+image: String
+price: Float!
+categoria: String
+}
 
