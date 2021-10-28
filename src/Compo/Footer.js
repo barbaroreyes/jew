@@ -8,6 +8,7 @@ display:flex;
 justify-content:center;
 flex-direction:row;
 align-items:center;
+background:#FAFAFA;
 `
 const Left = styled.div `
 flex:1;
@@ -74,8 +75,12 @@ color: ${props => props.color};
 const ContactItem = styled.div `
 flex:1;
 display:flex;
+margin-bottom:60px;
 `
-
+const Payment = styled.img `
+width:20%;
+heigth:100px;
+   `
 const Footer = () => {
 
   return (
@@ -139,7 +144,7 @@ const Footer = () => {
          
       </Rigth>
       
-
+      <Payment src='https://www.bypeople.com/wp-content/uploads/2020/02/free-svg-payment-credit-card-icons.png'/>
     </Container>
   );
 }
