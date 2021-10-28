@@ -48,6 +48,7 @@ border: none;
 `
 const Logo = styled.h1`
 font-weith :bold;
+font-size: 34px;
 `
 const MenuItem =  styled.div`
 font-size: 14px;
@@ -66,7 +67,7 @@ const NavBar = () => {
                  <Search style={{color:'grey', fontSize:'16px'}}/>
              </SearchContainer>
          </Left>
-         <Center><Logo>Jewelry</Logo></Center>
+         <Center><Logo>La Mamgo Jewelry</Logo></Center>
          <Rigth>
              <MenuItem>Register</MenuItem>
              <MenuItem>Sign in</MenuItem>
