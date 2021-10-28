@@ -9,6 +9,7 @@ justify-content:center;
 flex-direction:row;
 align-items:center;
 background:#FAFAFA;
+text-align:center;
 `
 const Left = styled.div `
 flex:1;
