@@ -3,10 +3,20 @@ import styled from 'styled-components';
 import {Send} from '@material-ui/icons'
 const Container = styled.div`
 height:60vh;
+display:flex;
+justify-content: center;
+align-items: center;
+background-color: #fcf5f5;
+flex-direction: column;
 `
-const Title = styled.div`
+const Title = styled.h1`
+font-size:70px;
+margin-bottom:20px;
+font-weight:300
 `
 const Description = styled.div`
+font-size:24px;
+margin-bottom:20px;
  `
 const InputContainer = styled.div``
 const Input = styled.input``
