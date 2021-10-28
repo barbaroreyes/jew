@@ -18,7 +18,13 @@ const Description = styled.div`
 font-size:24px;
 margin-bottom:20px;
  `
-const InputContainer = styled.div``
+const InputContainer = styled.div`
+width:50%;
+height:40px;
+display:flex;
+justify-content:space-between;
+border:1px solid lightgrey;
+`
 const Input = styled.input``
 const Button = styled.button``
 
