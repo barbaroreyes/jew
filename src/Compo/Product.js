@@ -58,6 +58,7 @@ display:flex;
 justify-content: center;
 align-items: center;
 margin: 5px;
+courser:pointer;
 transition: all 0.5s ease;
 &:hover{
     background-color: blue;
