@@ -23,7 +23,7 @@ justify-content: center;
 align-items: center;
 margin: 5px;
 mim-width: 280px;
-height:350px;
+height:450px;
 border:2px solid black;
 padding:10px;
 position:relative;
@@ -34,7 +34,7 @@ position:relative;
 const Circle = styled.div `
 width:350px;
 height:350px;
-background-color: rgb(0,0,0,0.2);
+background-color: rgb(0,0,0,0.1);
 border-radius: 50%;
 position:absolute;
 z-index:2
