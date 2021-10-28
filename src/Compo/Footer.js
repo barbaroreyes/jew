@@ -67,6 +67,9 @@ padding:10px;
 const SocialContaimer = styled.div `
 flex:1;
 display:flex;
+justify-content:center;
+align-items:center;
+
 `
 
 const SocialIcon= styled.div `
@@ -84,7 +87,10 @@ color: ${props => props.color};
 const ContactItem = styled.div `
 flex:1;
 display:flex;
-margin-bottom:30px;
+justify-content:center;
+flex-direction:column;
+align-items:center;
+margin-bottom:10px;
 `
 const Payment = styled.img `
 width:20%;
