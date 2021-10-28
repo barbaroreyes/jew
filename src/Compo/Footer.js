@@ -46,7 +46,8 @@ display:flex;
 justify-content:center;
 flex-direction:column;
 align-items:center;
-padding:10px;
+padding:5px;
+margin:10px;
 `
 
 const Logo = styled.h1 `
