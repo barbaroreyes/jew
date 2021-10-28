@@ -16,7 +16,7 @@
   {
     "createdAt": "2021-10-26T16:47:34.654Z",
     "id": "9",
-    "name": "Conjunto Cadenas y Manilla",
+    "name": "Conjuntos",
     "updatedAt": "2021-10-26T16:47:34.654Z",
     "image": "https://lamjce9b1a58db81496d90b0f125b07c8929185751-dev.s3.amazonaws.com/public/cadenaconivelula.jpeg",
   },

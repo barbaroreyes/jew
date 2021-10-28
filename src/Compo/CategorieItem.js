@@ -10,7 +10,7 @@ flex:1;
 margin: 4px;
 heigth:100vh;
 position:relative;
-border:1px solid black;
+
 
 `
 const Image = styled.img`
@@ -21,20 +21,24 @@ object-fit:cover;
 const Info = styled.div`
 position:absolute;
 width:100%;
-heigth:100%;
-top:0;
-left:0;
-display:flex;
-align-items:center;
 justify-content:center;
 flex-direction:column;
-color:white;
+display:flex;
+align-items:center;
+margin-top:400px;
+text-aling:center;
+text-align:center;
 `
 const Title = styled.h1`
 color:rgb(189,132,64);
 `
 const Button = styled.button`
 padding:20px;
+background:black;
+color:rgb(189,132,64);
+border-radius:30px 30px;
+width:80%;
+cursor:pointer;
 `
 
 

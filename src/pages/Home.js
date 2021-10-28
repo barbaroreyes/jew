@@ -3,6 +3,7 @@ import NavBar from '../Compo/NavBar'
 import Anouncement from '../Compo/Anouncement';
 import Slider from '../Compo/Slider';
 import Categories from '../Compo/Categories';
+import Products from '../Compo/Products';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
      < NavBar/>
      <Slider/>
      <Categories/>
+     <Products/>
     </div>
   );
 }

@@ -70,8 +70,11 @@ font-weight:500;
 letter-spacing:3px;
 `
 const Button = styled.button`
-padding :10px;
-background-color:transparent;
+padding:30px;
+background: black;
+color: rgb(189,132,64);
+border-radius:30px 30px;
+width:30%;
 cursor:pointer;
 `
 
