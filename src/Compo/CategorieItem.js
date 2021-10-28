@@ -25,7 +25,7 @@ justify-content:center;
 flex-direction:column;
 display:flex;
 align-items:center;
-margin-top:400px;
+margin-top:361px;
 text-aling:center;
 text-align:center;
 `
