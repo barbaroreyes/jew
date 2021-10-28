@@ -27,10 +27,13 @@ border:1px solid lightgrey;
 `
 const Input = styled.input`
 border: none;
-flex:8;
+flex:6;
+font-size:20px;
 `
 const Button = styled.button`
 flex:1;
+background-color: rgb(169,157,129);
+color:#fff
 `
 
 
