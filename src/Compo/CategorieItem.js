@@ -33,7 +33,7 @@ const Title = styled.h1`
 color:rgb(189,132,64);
 `
 const Button = styled.button`
-padding:20px;
+padding:14px;
 background:black;
 color:rgb(189,132,64);
 border-radius:30px 30px;
