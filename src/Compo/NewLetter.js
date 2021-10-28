@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import {Send} from '@material-ui/icons'
 const Container = styled.div`
+height:60vh;
 `
 const Title = styled.div`
 `
@@ -16,8 +17,8 @@ const Button = styled.button``
 const NewLetter = () => {
   return (
     <Container>
-      <Title></Title>
-      <Description></Description>
+      <Title>News</Title>
+      <Description>Get info for you favorite products</Description>
       <InputContainer>
       <Input placeholder="Your email"/>
       <Button>

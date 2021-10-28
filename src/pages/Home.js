@@ -4,7 +4,7 @@ import Anouncement from '../Compo/Anouncement';
 import Slider from '../Compo/Slider';
 import Categories from '../Compo/Categories';
 import Products from '../Compo/Products';
-
+import NewLetter from '../Compo/NewLetter';
 const Home = () => {
   return (
     <div>
@@ -13,6 +13,7 @@ const Home = () => {
      <Slider/>
      <Categories/>
      <Products/>
+     <NewLetter/>
     </div>
   );
 }
