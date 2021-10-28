@@ -24,8 +24,6 @@ display:flex;
 justify-content: center;
 `
 const InfoContainer = styled.div`
-// flex:1;
-// padding: 100px 100px;
 width:20%;
 font-size:40px;
 
@@ -53,6 +51,7 @@ const Product = () => {
           adipisicing elit. Dolores eum accusamus quam ab, commodi eaque? Voluptatem in cupiditate cum nesciunt aspernatur,
            expedita eaque debitis delectus quidem minima quo ipsam obcaecati qui 
            consequatur quasi fuga eligendi accusamus doloribus hic, harum optio! Accusamus qui aliquid, ad dolorem possimus fuga culpa animi molestiae.</Des>
+           <span>Price</span>
           </InfoContainer>
       </Wrapper>
       
