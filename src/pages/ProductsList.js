@@ -50,7 +50,16 @@ const ProductsList = () => {
             
         </Select>
         </Filter>
-        <Filter><FilterText>Sort Products</FilterText></Filter>
+        <Filter><FilterText>Sort Products</FilterText>
+        <Select>
+            <Option disabled selected>Precio</Option>
+            <Option>Major a menor</Option>
+            <Option>Menor Major</Option>
+            <Option>Precios Mejorados</Option>
+          
+            
+        </Select>
+        </Filter>
       </FilterContainer>
       <Products/>
       <NewLetter/>
