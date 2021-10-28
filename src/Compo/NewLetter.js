@@ -25,8 +25,13 @@ display:flex;
 justify-content:space-between;
 border:1px solid lightgrey;
 `
-const Input = styled.input``
-const Button = styled.button``
+const Input = styled.input`
+border: none;
+flex:8;
+`
+const Button = styled.button`
+flex:1;
+`
 
 
 
