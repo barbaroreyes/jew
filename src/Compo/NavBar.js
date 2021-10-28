@@ -3,7 +3,8 @@ import styled from 'styled-components';
 import {Search, ShoppingCartOutlined} from '@material-ui/icons'
 import {Badge} from '@material-ui/core'
 const Container =  styled.div`
-height: 80px;
+height: 100px;
+
 `
 
 const  Wrapper =  styled.div`

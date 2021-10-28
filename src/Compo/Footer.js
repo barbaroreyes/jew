@@ -8,7 +8,7 @@ display:flex;
 justify-content:center;
 flex-direction:row;
 align-items:center;
-background:#FAFAFA;
+background-color:#FAFAFA;
 text-align:center;
 `
 const Left = styled.div `
