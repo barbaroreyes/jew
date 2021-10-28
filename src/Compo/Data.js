@@ -4,8 +4,8 @@
         "createdAt": "2021-10-17T07:38:13.464Z",
         "description": "aretes",
         "id": "2",
-        "image": "https://lamjce9b1a58db81496d90b0f125b07c8929185751-dev.s3.amazonaws.com/public/Agollas.jpeg",
-        "name": "Aretes",
+        "image": "https://ecomercec9b5366954ad45c183a02ba23f9f2d3c122320-dev.s3.amazonaws.com/public/Anillos2.jpeg",
+        "name": "Anillos",
         "price": 1.5,
         "updatedAt": "2021-10-17T07:38:13.464Z"
       },
@@ -14,8 +14,8 @@
         "createdAt": "2021-10-17T07:38:13.464Z",
         "description": "Gargantilla con dije de  Sol",
         "id": "8",
-        "image": "https://lamjce9b1a58db81496d90b0f125b07c8929185751-dev.s3.amazonaws.com/public/gargantilla-con-sol.jpeg",
-        "name": "Gargantilla",
+        "image": "https://ecomercec9b5366954ad45c183a02ba23f9f2d3c122320-dev.s3.amazonaws.com/public/joyeria+fotos/gargantilla-con-sol.jpeg",
+        "name": "Pulsos",
         "price": 1.5,
         "updatedAt": "2021-10-17T07:38:13.464Z"
       },
@@ -24,7 +24,7 @@
         "createdAt": "2021-10-17T07:38:13.464Z",
         "description": "aretes",
         "id": "1",
-        "image": "https://lamjce9b1a58db81496d90b0f125b07c8929185751-dev.s3.amazonaws.com/public/Argollas1.jpeg",
+        "image": "https://ecomercec9b5366954ad45c183a02ba23f9f2d3c122320-dev.s3.amazonaws.com/public/joyeria+fotos/Argollas1.jpeg",
         "name": "Aretes",
         "price": 1.5,
         "updatedAt": "2021-10-17T07:38:13.464Z"
