@@ -9,33 +9,30 @@ const Container = styled.div`
 
 `
 const Image = styled.img`
-width:37%;
-height:50vh;
+width:50%;
+height:90vh;
 border-radius: 10%;
+object-fit:cover;
 `
 const ImageContainer = styled.div`
 flex:1;
 `
 const Wrapper = styled.div`
-width:60%;
+width:75%;
 padding:50px;
 display:flex;
 justify-content: center;
 `
 const InfoContainer = styled.div`
-flex:1;
-display:flex;
-justify-content: center;
-flex-direction: column;
-align-item:center;
-border:2px solid black ;
-padding:30px;
-text-align: center;
+// flex:1;
+// padding: 100px 100px;
+width:20%;
+font-size:40px;
 
 
 `
 const Title = styled.h1`
-
+font-weight: 300;
 `
 const Des = styled.p`
 
