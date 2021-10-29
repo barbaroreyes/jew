@@ -42,6 +42,7 @@ export const getCate = /* GraphQL */ `
       id
       name
       price
+      image
       createdAt
       updatedAt
     }
@@ -58,6 +59,40 @@ export const listCates = /* GraphQL */ `
         id
         name
         price
+        image
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+  }
+`;
+export const getSlider = /* GraphQL */ `
+  query GetSlider($id: ID!) {
+    getSlider(id: $id) {
+      id
+      name
+      image
+      price
+      categoria
+      createdAt
+      updatedAt
+    }
+  }
+`;
+export const listSliders = /* GraphQL */ `
+  query ListSliders(
+    $filter: ModelSliderFilterInput
+    $limit: Int
+    $nextToken: String
+  ) {
+    listSliders(filter: $filter, limit: $limit, nextToken: $nextToken) {
+      items {
+        id
+        name
+        image
+        price
+        categoria
         createdAt
         updatedAt
       }

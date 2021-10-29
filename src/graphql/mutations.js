@@ -61,6 +61,7 @@ export const createCate = /* GraphQL */ `
       id
       name
       price
+      image
       createdAt
       updatedAt
     }
@@ -75,6 +76,7 @@ export const updateCate = /* GraphQL */ `
       id
       name
       price
+      image
       createdAt
       updatedAt
     }
@@ -89,6 +91,55 @@ export const deleteCate = /* GraphQL */ `
       id
       name
       price
+      image
+      createdAt
+      updatedAt
+    }
+  }
+`;
+export const createSlider = /* GraphQL */ `
+  mutation CreateSlider(
+    $input: CreateSliderInput!
+    $condition: ModelSliderConditionInput
+  ) {
+    createSlider(input: $input, condition: $condition) {
+      id
+      name
+      image
+      price
+      categoria
+      createdAt
+      updatedAt
+    }
+  }
+`;
+export const updateSlider = /* GraphQL */ `
+  mutation UpdateSlider(
+    $input: UpdateSliderInput!
+    $condition: ModelSliderConditionInput
+  ) {
+    updateSlider(input: $input, condition: $condition) {
+      id
+      name
+      image
+      price
+      categoria
+      createdAt
+      updatedAt
+    }
+  }
+`;
+export const deleteSlider = /* GraphQL */ `
+  mutation DeleteSlider(
+    $input: DeleteSliderInput!
+    $condition: ModelSliderConditionInput
+  ) {
+    deleteSlider(input: $input, condition: $condition) {
+      id
+      name
+      image
+      price
+      categoria
       createdAt
       updatedAt
     }

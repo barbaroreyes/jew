@@ -49,6 +49,7 @@ export const onCreateCate = /* GraphQL */ `
       id
       name
       price
+      image
       createdAt
       updatedAt
     }
@@ -60,6 +61,7 @@ export const onUpdateCate = /* GraphQL */ `
       id
       name
       price
+      image
       createdAt
       updatedAt
     }
@@ -71,6 +73,46 @@ export const onDeleteCate = /* GraphQL */ `
       id
       name
       price
+      image
+      createdAt
+      updatedAt
+    }
+  }
+`;
+export const onCreateSlider = /* GraphQL */ `
+  subscription OnCreateSlider {
+    onCreateSlider {
+      id
+      name
+      image
+      price
+      categoria
+      createdAt
+      updatedAt
+    }
+  }
+`;
+export const onUpdateSlider = /* GraphQL */ `
+  subscription OnUpdateSlider {
+    onUpdateSlider {
+      id
+      name
+      image
+      price
+      categoria
+      createdAt
+      updatedAt
+    }
+  }
+`;
+export const onDeleteSlider = /* GraphQL */ `
+  subscription OnDeleteSlider {
+    onDeleteSlider {
+      id
+      name
+      image
+      price
+      categoria
       createdAt
       updatedAt
     }
