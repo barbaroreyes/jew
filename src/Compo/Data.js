@@ -1,83 +1,67 @@
  const  data = [
-    {
-        "categoria": "Aretes",
-        "createdAt": "2021-10-17T07:38:13.464Z",
-        "description": "aretes",
-        "id": "2",
-        "image": "https://ecomercec9b5366954ad45c183a02ba23f9f2d3c122320-dev.s3.amazonaws.com/public/Anillos2.jpeg",
-        "name": "Anillos",
-        "price": 1.5,
-        "updatedAt": "2021-10-17T07:38:13.464Z"
-      },
-      {
-        "categoria": "Gargantillas",
-        "createdAt": "2021-10-17T07:38:13.464Z",
-        "description": "Esclava con dije de  Sol",
-        "id": "8",
-        "image": "https://ecomercec9b5366954ad45c183a02ba23f9f2d3c122320-dev.s3.amazonaws.com/public/joyeria+fotos/gargantilla-con-sol.jpeg",
-        "name": "Esclavas",
-        "price": 1.5,
-        "updatedAt": "2021-10-17T07:38:13.464Z"
-      },
-      {
-        "categoria": "Aretes",
-        "createdAt": "2021-10-17T07:38:13.464Z",
-        "description": "aretes",
-        "id": "1",
-        "image": "https://ecomercec9b5366954ad45c183a02ba23f9f2d3c122320-dev.s3.amazonaws.com/public/joyeria+fotos/Argollas1.jpeg",
-        "name": "Aretes",
-        "price": 1.5,
-        "updatedAt": "2021-10-17T07:38:13.464Z"
-      },
-      {
-        "categoria": "Cadenas",
-        "createdAt": "2021-10-17T07:38:13.464Z",
-        "description": "Cadena con dije de Livelula",
-        "id": "6",
-        "image": "https://lamjce9b1a58db81496d90b0f125b07c8929185751-dev.s3.amazonaws.com/public/cadenaconivelula.jpeg",
-        "name": "Cadena",
-        "price": 1.5,
-        "updatedAt": "2021-10-17T07:38:13.464Z"
-      },
-      {
-        "categoria": "Aros",
-        "createdAt": "2021-10-17T07:38:13.464Z",
-        "description": "Aro con Dije de Flor",
-        "id": "5",
-        "image": "https://lamjce9b1a58db81496d90b0f125b07c8929185751-dev.s3.amazonaws.com/public/Arosconflor.jpeg",
-        "name": "Aro",
-        "price": 1.5,
-        "updatedAt": "2021-10-17T07:38:13.464Z"
-      },
-      {
-        "categoria": "Aros",
-        "createdAt": "2021-10-17T07:38:13.464Z",
-        "description": "Aro con Dije de Oso",
-        "id": "4",
-        "image": "https://lamjce9b1a58db81496d90b0f125b07c8929185751-dev.s3.amazonaws.com/public/Aro-con-oso.jpeg",
-        "name": "Aro",
-        "price": 1.5,
-        "updatedAt": "2021-10-17T07:38:13.464Z"
-      },
-      {
-        "categoria": "Conjuntos",
-        "createdAt": "2021-10-17T07:38:13.464Z",
-        "description": "Cadena con dije de  Egipto",
-        "id": "7",
-        "image": "https://lamjce9b1a58db81496d90b0f125b07c8929185751-dev.s3.amazonaws.com/public/conjunto-manilla-cadena-egipto.jpeg",
-        "name": "Conjunto",
-        "price": 1.5,
-        "updatedAt": "2021-10-17T07:38:13.464Z"
-      },
-      {
-        "categoria": "Conjunto",
-        "createdAt": "2021-10-17T07:38:13.464Z",
-        "description": "aretes-aros-perlas",
-        "id": "3",
-        "image": "https://lamjce9b1a58db81496d90b0f125b07c8929185751-dev.s3.amazonaws.com/public/aretes-aros-perlas.jpeg",
-        "name": "Conjunto",
-        "price": 1.5,
-        "updatedAt": "2021-10-17T07:38:13.464Z"
-      }
+  {
+    "createdAt": "2021-11-01T11:44:12.730Z",
+    "id": "2",
+    "image": "https://ecomercejew7b6e695de0ef4126badbc7db32fd927c112134-dev.s3.amazonaws.com/public/Argollas1.jpeg",
+    "name": "Argollas",
+    "price": 1.5,
+    "updatedAt": "2021-11-01T11:44:12.730Z"
+  },
+  {
+    "createdAt": "2021-11-01T11:53:18.658Z",
+    "id": "8",
+    "image": "https://ecomercejew7b6e695de0ef4126badbc7db32fd927c112134-dev.s3.amazonaws.com/public/Pulsos.jpeg",
+    "name": "Pulsos",
+    "price": 1.5,
+    "updatedAt": "2021-11-01T11:53:18.658Z"
+  },
+  {
+    "createdAt": "2021-11-01T11:44:12.730Z",
+    "id": "9",
+    "image": "https://ecomercejew7b6e695de0ef4126badbc7db32fd927c112134-dev.s3.amazonaws.com/public/gargantilla-con-sol.jpeg",
+    "name": "Esclavas",
+    "price": 1.5,
+    "updatedAt": "2021-11-01T11:44:12.730Z"
+  },
+  {
+    "createdAt": "2021-11-01T11:42:19.781Z",
+    "id": "1",
+    "image": "https://ecomercejew7b6e695de0ef4126badbc7db32fd927c112134-dev.s3.amazonaws.com/public/aretes-aros-perlas.jpeg",
+    "name": "Conjuntos",
+    "price": 1.5,
+    "updatedAt": "2021-11-01T11:42:19.781Z"
+  },
+  {
+    "createdAt": "2021-11-01T11:48:51.783Z",
+    "id": "5",
+    "image": "https://ecomercejew7b6e695de0ef4126badbc7db32fd927c112134-dev.s3.amazonaws.com/public/manillasjpeg.jpeg",
+    "name": "Manillas",
+    "price": 1.5,
+    "updatedAt": "2021-11-01T11:48:51.783Z"
+  },
+  {
+    "createdAt": "2021-11-01T11:47:13.255Z",
+    "id": "4",
+    "image": "https://ecomercejew7b6e695de0ef4126badbc7db32fd927c112134-dev.s3.amazonaws.com/public/cadena-con-dije-2.jpeg",
+    "name": "Cadenas",
+    "price": 1.5,
+    "updatedAt": "2021-11-01T11:47:13.255Z"
+  },
+  {
+    "createdAt": "2021-11-01T11:51:37.151Z",
+    "id": "7",
+    "image": "https://ecomercejew7b6e695de0ef4126badbc7db32fd927c112134-dev.s3.amazonaws.com/public/gargantilla-con-dije-3.jpeg",
+    "name": "Gargantillas",
+    "price": 1.5,
+    "updatedAt": "2021-11-01T11:51:37.151Z"
+  },
+  {
+    "createdAt": "2021-11-01T11:45:30.043Z",
+    "id": "3",
+    "image": "https://ecomercejew7b6e695de0ef4126badbc7db32fd927c112134-dev.s3.amazonaws.com/public/Aro-con-oso.jpeg",
+    "name": "Aritos",
+    "price": 1.5,
+    "updatedAt": "2021-11-01T11:45:30.043Z"
+  }
 ]
 export default data

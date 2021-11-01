@@ -1,66 +1,67 @@
- export const categorie = [ {
-    "createdAt": "2021-10-26T16:47:34.654Z",
+ export const categorie = [ 
+  {
+    "createdAt": "2021-11-01T11:44:12.730Z",
     "id": "2",
-    "name": "Cadenas",
-    "updatedAt": "2021-10-26T16:47:34.654Z",
-    "image": "https://lamjce9b1a58db81496d90b0f125b07c8929185751-dev.s3.amazonaws.com/public/cadenaconivelula.jpeg",
-    
-  },
-  {
-    "createdAt": "2021-10-26T16:47:34.654Z",
-    "id": "8",
-    "name": "Semanarios",
-    "updatedAt": "2021-10-26T16:47:34.654Z",
-    "image": "https://lamjce9b1a58db81496d90b0f125b07c8929185751-dev.s3.amazonaws.com/public/cadenaconivelula.jpeg",
-  },
-  {
-    "createdAt": "2021-10-26T16:47:34.654Z",
-    "id": "9",
-    "name": "Conjuntos",
-    "updatedAt": "2021-10-26T16:47:34.654Z",
-    "image": "https://lamjce9b1a58db81496d90b0f125b07c8929185751-dev.s3.amazonaws.com/public/cadenaconivelula.jpeg",
-  },
-  {
-    "createdAt": "2021-10-26T16:47:34.654Z",
-    "id": "1",
-    "name": "Dijes",
-    "updatedAt": "2021-10-26T16:47:34.654Z",
-    "image": "https://lamjce9b1a58db81496d90b0f125b07c8929185751-dev.s3.amazonaws.com/public/cadenaconivelula.jpeg",
-  },
-  {
-    "createdAt": "2021-10-26T16:47:34.654Z",
-    "id": "6",
-    "name": "Pulsos",
-    "updatedAt": "2021-10-26T16:47:34.654Z",
-    "image": "https://lamjce9b1a58db81496d90b0f125b07c8929185751-dev.s3.amazonaws.com/public/cadenaconivelula.jpeg",
-  },
-  {
-    "createdAt": "2021-10-26T16:47:34.654Z",
-    "id": "5",
+    "image": "https://ecomercejew7b6e695de0ef4126badbc7db32fd927c112134-dev.s3.amazonaws.com/public/Argollas1.jpeg",
     "name": "Argollas",
-    "updatedAt": "2021-10-26T16:47:34.654Z",
-    "image": "https://lamjce9b1a58db81496d90b0f125b07c8929185751-dev.s3.amazonaws.com/public/Argollas1.jpeg"
+    "price": 1.5,
+    "updatedAt": "2021-11-01T11:44:12.730Z"
   },
   {
-    "createdAt": "2021-10-26T16:47:34.654Z",
-    "id": "4",
-    "name": "Anillos",
-    "updatedAt": "2021-10-26T16:47:34.654Z",
-    "image": "https://lamjce9b1a58db81496d90b0f125b07c8929185751-dev.s3.amazonaws.com/public/cadenaconivelula.jpeg",
+    "createdAt": "2021-11-01T11:53:18.658Z",
+    "id": "8",
+    "image": "https://ecomercejew7b6e695de0ef4126badbc7db32fd927c112134-dev.s3.amazonaws.com/public/Pulsos.jpeg",
+    "name": "Pulsos",
+    "price": 1.5,
+    "updatedAt": "2021-11-01T11:53:18.658Z"
   },
   {
-    "createdAt": "2021-10-26T16:47:34.654Z",
-    "id": "7",
+    "createdAt": "2021-11-01T11:44:12.730Z",
+    "id": "9",
+    "image": "https://ecomercejew7b6e695de0ef4126badbc7db32fd927c112134-dev.s3.amazonaws.com/public/gargantilla-con-sol.jpeg",
     "name": "Esclavas",
-    "updatedAt": "2021-10-26T16:47:34.654Z",
-    "image": "https://lamjce9b1a58db81496d90b0f125b07c8929185751-dev.s3.amazonaws.com/public/Argollas1.jpeg",
+    "price": 1.5,
+    "updatedAt": "2021-11-01T11:44:12.730Z"
   },
   {
-    "createdAt": "2021-10-26T16:47:34.654Z",
+    "createdAt": "2021-11-01T11:42:19.781Z",
+    "id": "1",
+    "image": "https://ecomercejew7b6e695de0ef4126badbc7db32fd927c112134-dev.s3.amazonaws.com/public/aretes-aros-perlas.jpeg",
+    "name": "Conjuntos",
+    "price": 1.5,
+    "updatedAt": "2021-11-01T11:42:19.781Z"
+  },
+  {
+    "createdAt": "2021-11-01T11:48:51.783Z",
+    "id": "5",
+    "image": "https://ecomercejew7b6e695de0ef4126badbc7db32fd927c112134-dev.s3.amazonaws.com/public/manillasjpeg.jpeg",
+    "name": "Manillas",
+    "price": 1.5,
+    "updatedAt": "2021-11-01T11:48:51.783Z"
+  },
+  {
+    "createdAt": "2021-11-01T11:47:13.255Z",
+    "id": "4",
+    "image": "https://ecomercejew7b6e695de0ef4126badbc7db32fd927c112134-dev.s3.amazonaws.com/public/cadena-con-dije-2.jpeg",
+    "name": "Cadenas",
+    "price": 1.5,
+    "updatedAt": "2021-11-01T11:47:13.255Z"
+  },
+  {
+    "createdAt": "2021-11-01T11:51:37.151Z",
+    "id": "7",
+    "image": "https://ecomercejew7b6e695de0ef4126badbc7db32fd927c112134-dev.s3.amazonaws.com/public/gargantilla-con-dije-3.jpeg",
+    "name": "Gargantillas",
+    "price": 1.5,
+    "updatedAt": "2021-11-01T11:51:37.151Z"
+  },
+  {
+    "createdAt": "2021-11-01T11:45:30.043Z",
     "id": "3",
+    "image": "https://ecomercejew7b6e695de0ef4126badbc7db32fd927c112134-dev.s3.amazonaws.com/public/Aro-con-oso.jpeg",
     "name": "Aritos",
-    "updatedAt": "2021-10-26T16:47:34.654Z",
-    "image": "https://lamjce9b1a58db81496d90b0f125b07c8929185751-dev.s3.amazonaws.com/public/Arosconflor.jpeg",
+    "price": 1.5,
+    "updatedAt": "2021-11-01T11:45:30.043Z"
   }
 
 ]
