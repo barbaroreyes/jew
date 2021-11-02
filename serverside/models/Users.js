@@ -4,6 +4,7 @@ const { Schema, model } = require("mongoose");
 const UserSchema = new Schema(
   {
     username:{type:String,require:true , unique:true},
+    email:{type:String,require:true , unique:true},
     password:{type:String,require:true , unique:true},
     isAdmin:{type:Boolean,require:true,default:false},
     img: String,
@@ -13,7 +14,7 @@ const UserSchema = new Schema(
 );
 
 //DOG MODEL
-const User = model("user", UserSchema);
+const User = model("User", UserSchema);
 
 //EXPORT MODEL
 module.exports = User;

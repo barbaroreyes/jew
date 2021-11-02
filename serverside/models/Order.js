@@ -1,6 +1,6 @@
 const { Schema, model } = require("mongoose");
 
-const CartSchema = new Schema(
+const OrderSchema = new Schema(
     {
       userId:{type:String,require:true },
       products:[
@@ -12,17 +12,19 @@ const CartSchema = new Schema(
                 type:Number,
                 default:1
 
-            }  
-          }
+            },  
+          },
       ],
-      
+      amount:{type:Number , require:true},
+      address:{type:Object,require:true},
+      status:{type:String,default:'pending'}
     },
     
     { timestamps: true }
   );
   
   //DOG MODEL
-  const Cart = model("Cart", CartSchema);
+  const Order = model("Order", OrderSchema);
   
   //EXPORT MODEL
-  module.exports = Cart;
+  module.exports = Order;
